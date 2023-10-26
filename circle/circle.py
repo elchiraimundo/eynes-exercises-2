@@ -9,7 +9,7 @@ class Circle:
 
     def get_radius(self):
         return self.radius
-    tete
+    
     def set_radius(self,radius):
         if radius <= 0:
             raise ValueError("El radio debe ser mayor que 0")
