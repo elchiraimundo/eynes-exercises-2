@@ -16,10 +16,10 @@ class Circle:
         self.radius = radius
 
     def get_area(self):
-        return 3.14159 * self.radius**2 
+        return math.pi * self.radius**2 
     
     def get_perimeter(self):
-        return 3.14159 * self.radius * 2
+        return math.pi * self.radius * 2
     
     def __mul__(self, n):
         if n <= 0:
